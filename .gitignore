@@ -1,8 +1,6 @@
 node_modules/
 .DS_Store
 .env
-# Keep Cursor rules and Agent system files
-.agent/
-.gemini/
-.cursor/rules/
-
+# Only ignore personal configs, allow rules to be shared
+.cursor/config/
+.cursor/project/
