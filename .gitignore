@@ -1,5 +1,8 @@
 node_modules/
 .DS_Store
 .env
-.cursor/
-# Keep .agent and .gemini as they are part of the "experience"
+# Keep Cursor rules and Agent system files
+.agent/
+.gemini/
+.cursor/rules/
+
