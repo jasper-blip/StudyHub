@@ -25,12 +25,17 @@ StudyHub Ultra isn't just a dashboard—it's your academic edge. It features ult
    py sync_logs.py
    ```
 
+### 🖥️ Desktop "Auto-Complete" App (v2.0)
+You now have a standalone **EXE** for the elite experience:
+1.  Go to `dist/StudyHubUltra.exe`.
+2.  **Login**: Use `jasper` / `elite`.
+3.  **Autonomous Mode**: Once logged in, the app monitors your clipboard. If you copy a code, it instantly replaces it with the answer software-wide.
+
 ### 🌍 Publishing for Others
 If you want to share your log and dashboard:
 1. Push this folder to a GitHub repository.
 2. Enable **GitHub Pages** in settings to host the dashboard.
-3. Your friends can clone the repo to get the same IDE auto-complete features!
+3. Your friends can download the EXE from your repo's `dist` folder!
 
 ---
-*Built for excellence. Optimized for Jasper.*
 

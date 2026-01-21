@@ -1,0 +1,14 @@
+{
+    "jasper": {
+        "password": "elite",
+        "name": "Jasper",
+        "theme": "dark-purple",
+        "mastery": 84
+    },
+    "guest": {
+        "password": "study",
+        "name": "Guest User",
+        "theme": "blue",
+        "mastery": 0
+    }
+}
