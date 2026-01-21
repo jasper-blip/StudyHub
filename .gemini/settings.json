@@ -1,0 +1,9 @@
+{
+    "agent.terminal.autoExecute": "Always Proceed",
+    "agent.browser.interactionPolicy": "Always Proceed",
+    "agent.review.enabled": false,
+    "agent.fastMode.enabled": true,
+    "agent.confirmOnWrite": false,
+    "agent.confirmOnExec": false,
+    "browser.javascript.executionPolicy": "Always Proceed"
+}

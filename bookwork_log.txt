@@ -1,0 +1,37 @@
+# Sparx Maths / Seneca Bookwork Log
+# [Code/Topic] - [Question] - [Answer]
+
+- [Seneca] Blood types - Karl Landsteiner discovery - O
+- [Seneca] Cancer therapy - Start year - 1901
+- [Seneca] Disease - From flooded trenches - Trench foot
+- [Seneca] Gas Weapons - 4 main types - Chlorine, Phosgene
+- [Seneca] Splint Type - Leg fracture reduction - Thomas splint
+- [Seneca] First Blood Bank - Battle of Cambrai - 1917
+- [Seneca] Decoy Gas - Non-weaponized - Pickle gas
+- [Seneca] Fracture Localization - Tool used - X-ray
+- [Seneca] Trench Construction - 3 methods - Entrenching, Sapping, Tunnelling
+- [Seneca] Medical Corps - RAMC - Royal Army Medical Corps
+- [Seneca] FANY Role - Primary work - Field ambulance drivers
+- [Seneca] Plastic Surgery - Inventor/Pioneer - Harold Gillies
+- [Seneca] Mobile X-ray - Inventor - Marie Curie
+- [Seneca] Gas Ban - Year - 1925 (Geneva Protocol)
+- [Seneca] Underground Hospital - Location - Arras
+- [Seneca] Blood Clotting - Chemical inhibitor - Sodium citrate (Discovery: Albert Hustin)
+- [Seneca] Blood Banks - Countries - Britain/USA
+- [Seneca] Shell Shock - Nature of illness - Mental/Psychological
+- [Seneca] Infection Acid - Bandage treatment - Carbolic acid
+- [Seneca] German Retreat - Line name - Hindenburg Line
+- [Seneca] Western Front - Location - France/Belgium
+- [Seneca] Trench Depth - Ideal range - 6-7 feet
+- [Seneca] Trench Types - Frontline, Support, Reserve, Communication
+- [Seneca] Evacuation Order - RAP, Dressing Station, CCS, Base Hospital
+- [Seneca] Evacuation Goal - Move casualties to - Safe areas
+- [Sparx Science] Stomach Acid - What type of acid is produced by the stomach to kill pathogens? - hydrochloric acid
+- [Sparx Science] Pathogen Defense - Which cells help to defend the body against pathogens? - white blood cells
+- [Sparx Science] Pathogen Diseases - What word is used to describe diseases that are caused by pathogens? - communicable
+- [Sparx Science] Pathogen Defense (Organ) - Which organ in the digestive system produces acid to kill pathogens? - stomach
+- [Sparx Science] Energy Units - Complete these equalities: 1 nanojoule = 0.000000001 joules, 1 microjoule = 0.000001 joules
+- [Sparx Science] Mass Change Reactions - Negative percentage change in mass. - Reaction B, Reaction C
+- [Sparx Science] Mean Mass Calculation - Calculate Test 2 mass (Mean=14, T1=12, T3=18, T4=11). - 15
+- [Sparx Science] Rounding - Round 63.571... to the nearest beat per minute. - 64
+- [Sparx Maths] Probability Ordering - Order probabilities (0.47, 2/5, 24%, 3/10) from least to most likely - Pole vault, Discus, 200m, Long jump

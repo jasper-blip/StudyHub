@@ -1,0 +1,5 @@
+node_modules/
+.DS_Store
+.env
+.cursor/
+# Keep .agent and .gemini as they are part of the "experience"

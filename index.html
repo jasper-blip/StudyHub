@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudyHub Ultra | Premium Academic Dashboard</title>
+    <meta name="description"
+        content="A state-of-the-art dashboard for high-performance students. Manage notes and bookwork logs with style.">
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts: Inter & Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Outfit:wght@500;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+    <div class="mesh-gradient"></div>
+    <div id="app">
+        <aside>
+            <div class="logo">
+                <div class="logo-icon">
+                    <i data-lucide="graduation-cap"></i>
+                </div>
+                <span>StudyHub</span>
+            </div>
+            <div class="user-profile"
+                style="display: flex; align-items: center; gap: 1rem; margin-bottom: 2.5rem; padding: 0.5rem;">
+                <img src="assets/avatar.png" alt="Jasper"
+                    style="width: 50px; height: 50px; border-radius: 15px; border: 2px solid var(--primary);">
+                <div>
+                    <div style="font-weight: 800; font-size: 1rem; color: #fff;">Jasper</div>
+                    <div
+                        style="font-size: 0.75rem; color: var(--accent); font-weight: 700; display: flex; align-items: center; gap: 0.25rem;">
+                        <span style="width: 6px; height: 6px; background: var(--accent); border-radius: 50%;"></span>
+                        Online
+                    </div>
+                </div>
+            </div>
+
+            <ul class="nav-links">
+                <li class="nav-item active" data-view="dashboard">
+                    <i data-lucide="layout-grid"></i>
+                    <span>Overview</span>
+                </li>
+                <li class="nav-item" data-view="notes">
+                    <i data-lucide="book-open-check"></i>
+                    <span>Revision Notes</span>
+                </li>
+                <li class="nav-item" data-view="logs">
+                    <i data-lucide="database-zap"></i>
+                    <span>Bookwork Log</span>
+                </li>
+            </ul>
+
+            <div
+                style="margin-top: auto; padding: 1.5rem; background: rgba(255,255,255,0.03); border-radius: 20px; border: 1px solid var(--glass-border);">
+                <div
+                    style="font-size: 0.75rem; font-weight: 800; color: var(--text-dim); text-transform: uppercase; margin-bottom: 0.5rem;">
+                    Daily Goal</div>
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
+                    <span style="font-weight: 700; font-size: 0.9rem;">Revision</span>
+                    <span style="font-weight: 800; color: var(--primary-light);">12/15</span>
+                </div>
+                <div class="mastery-bar" style="height: 6px;">
+                    <div class="mastery-fill" style="width: 80%;"></div>
+                </div>
+            </div>
+        </aside>
+
+        <main>
+            <header>
+                <div class="header-content">
+                    <h1 id="view-title">Overview</h1>
+                    <p id="view-subtitle" class="subtitle">Welcome back, Jasper. Tracking your academic excellence.</p>
+                </div>
+                <div class="header-badge">
+                    <i data-lucide="zap"></i>
+                    <span>PRO PLAN</span>
+                </div>
+            </header>
+
+            <div id="search-section" class="search-wrapper" style="display: none;">
+                <i data-lucide="search" class="search-icon-inside"></i>
+                <input type="text" id="search-input" class="search-input-fancy"
+                    placeholder="Search for questions, topics, or answers...">
+            </div>
+
+            <div id="content-area" class="animate-slide-up">
+                <!-- Content injected by JavaScript -->
+            </div>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>
