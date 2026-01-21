@@ -236,15 +236,15 @@ const views = {
             </div>
             
             <div style="display: grid; grid-template-columns: 2fr 1fr; gap: 2rem; margin-top: 1rem;">
-                <div class="note-card" style="background: linear-gradient(135deg, rgba(139, 92, 246, 0.2) 0%, rgba(2, 6, 23, 0.8) 100%); border: 1px solid var(--primary);">
-                    <div class="note-tag" style="background: var(--primary); color: #fff;">Elite Feature</div>
-                    <div class="note-title">Hands-Free Automation</div>
-                    <div class="note-body">
-                        Enable <strong>Stealth Auto-Mode</strong>. The dashboard will monitor your clipboard and automatically find & copy answers back to you.
+                <div class="note-card" style="background: linear-gradient(135deg, rgba(139, 92, 246, 0.2) 0%, rgba(2, 6, 23, 0.8) 100%); border: 2px solid var(--primary); box-shadow: 0 0 30px rgba(139, 92, 246, 0.2);">
+                    <div class="note-tag" style="background: var(--primary); color: #fff; font-size: 0.8rem;">ULTRA FEATURE</div>
+                    <div class="note-title" style="font-size: 2rem; color: var(--primary-light);">Auto-Complete is READY</div>
+                    <div class="note-body" style="font-size: 1.2rem;">
+                        Click below to enable <strong>Stealth Auto-Mode</strong>. Just copy a Sparx code and the answer will be instantly copied back to you.
                     </div>
-                    <button onclick="toggleAutoMode()" class="copy-pill" style="margin-top: 1rem; width: 100%; justify-content: center; ${state.autoMode ? 'background: var(--accent); color: #000;' : ''}">
-                        <i data-lucide="${state.autoMode ? 'zap' : 'zap-off'}"></i>
-                        <span>${state.autoMode ? 'Auto-Mode Active' : 'Enable Auto-Mode'}</span>
+                    <button onclick="toggleAutoMode()" class="copy-pill" style="margin-top: 1.5rem; width: 100%; justify-content: center; padding: 1.5rem; font-size: 1.1rem; border-radius: 20px; ${state.autoMode ? 'background: var(--accent); color: #000;' : 'background: var(--primary); color: #fff;'}" id="auto-mode-main-btn">
+                        <i data-lucide="${state.autoMode ? 'zap' : 'zap'}"></i>
+                        <span>${state.autoMode ? 'AUTO-MODE IS ACTIVE' : 'ENABLE AUTO-COMPLETE MODE'}</span>
                     </button>
                     ${state.autoMode ? '<div class="pulse-ring"></div>' : ''}
                 </div>
